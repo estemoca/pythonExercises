@@ -5,7 +5,7 @@ def tirar_dados():
     dado2 = random.randint(1, 6)
         
     print(f"Tirada del dado 1: {dado1}")
-    print(f"Tirada del dado 2: {dado2}")
+    print(f"Tirada del dado 2: {dado2} 5555")
         
     suma = dado1 + dado2
 
