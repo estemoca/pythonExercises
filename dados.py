@@ -6,6 +6,7 @@ def tirar_dados():
         
     print(f"Tirada del dado 1: {dado1}")
     print(f"Tirada del dado 2: {dado2} 3333")
+    print(f"Tirada del dado 2: {dado2} 5555")
     print(f"Suma de los dos dados: {suma}")
         
     suma = dado1 + dado2
