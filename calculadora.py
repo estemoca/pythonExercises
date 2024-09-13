@@ -23,15 +23,23 @@ def calculadora():
         numero2 = int(input("ingrese el segundo numero "))
         if opc==1:
             print(f"El resultado de la suma es: {suma(numero1,numero2)}")
+            print(f"El resultado de la suma es: {suma(numero1,numero2)}")
+            print(f"El resultado de la suma es: {suma(numero1,numero2)}")
+            print(f"El resultado de la suma es: {suma(numero1,numero2)}")
+
         elif opc==2:
             print(f"El resultado de la resta es: {resta(numero1,numero2)}")
         elif opc==3:
             print(f"El resultado de la multiplicacion es: {multiplicacion(numero1,numero2)}")
         elif opc==4:
             print(f"El resultado de la division es: {division(numero1,numero2)}")
+
+
         elif opc==5:
             print("Adios gracias por usar nuestra calculadora")
             break
+
+
         else:
             print("operacion invalida")
 
