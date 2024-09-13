@@ -5,12 +5,13 @@ def tirar_dados():
     dado2 = random.randint(1, 6)
         
     print(f"Tirada del dado 1: {dado1}")
-    print(f"Tirada del dado 2: {dado2}")
+    print(f"Tirada del dado 2: {dado2} 3333")
+    print(f"Suma de los dos dados: {suma}")
         
     suma = dado1 + dado2
 
 def main():
-    print(f"Suma de los dos dados: {suma}")
+    
     while True:
         tirar_dados()
                 
