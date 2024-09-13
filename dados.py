@@ -8,9 +8,9 @@ def tirar_dados():
     print(f"Tirada del dado 2: {dado2}")
         
     suma = dado1 + dado2
-    print(f"Suma de los dos dados: {suma}")
 
 def main():
+    print(f"Suma de los dos dados: {suma}")
     while True:
         tirar_dados()
                 
