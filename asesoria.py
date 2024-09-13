@@ -46,6 +46,10 @@ def consultaSaldo():
     global saldo
     print(f"su saldo es {saldo}")
     return True
+    
+
+
+
 
 def login():
     global clave
