@@ -1,13 +1,15 @@
 saldo = 1000000
 clave = 123456
 cuentaDestinoSaldo = 0
-noCuentaDestino= 5555
+noCuentaDestino= 55555465
 
 def retiro():
     retiro = float(input("ingrese el monto a retirar "))
     global saldo      
     if saldo>=retiro:  
         saldo = saldo - retiro
+        print(f"Retiro Exitoso su nuevo saldo es : {saldo}")        
+        print(f"Retiro Exitoso su nuevo saldo es : {saldo}")        
         print(f"Retiro Exitoso su nuevo saldo es : {saldo}")        
     else:
         print("No tiene suficiente fondo para este retiro")                         
