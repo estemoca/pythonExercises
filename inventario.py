@@ -13,6 +13,8 @@ def actualizar_inventario(inventario, nombre,precio, cantidad ):
             return
 
     print("el producto no ha sido encontrado ")
+    print("el producto no ha sido encontrado ")
+    print("el producto no ha sido encontrado ")
 
 def eliminar_producto(inventario,nombre):
     for producto in inventario:

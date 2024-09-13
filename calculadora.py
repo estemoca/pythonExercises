@@ -18,6 +18,8 @@ def calculadora():
         print("3 para multiplicacion ")
         print("4 para division ")
         print("5 para salir")
+        print("5 para salir")
+        print("5 para salir")
         opc= int(input("Ingrese la opcion"))
         numero1 = int(input("ingrese el primer numero "))
         numero2 = int(input("ingrese el segundo numero "))

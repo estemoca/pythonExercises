@@ -11,6 +11,7 @@ df['Nombre Completo '] = df['Apellidos'] + df['Nombres']
 cartera_totales = df.groupby('Sexo')['Cartera'].reset_index()
 print("Cartera por sexo:\n", cartera_totales)
 print(df)
+print("hola")
 
 # Guardar las ventas totales por producto en un nuevo archivo CSV
 cartera_totales.to_csv('cartera.csv', index=False)
