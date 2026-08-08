@@ -1,0 +1,51 @@
+https://gemini.google.com/share/14e8c2579643
+
+https://gemini.google.com/share/1a959171462a
+
+https://gemini.google.com/share/51abc37e8cd9
+
+
+https://gemini.google.com/share/5e0e0c6d2cda 
+
+
+Set	Ejercicio	Algoritmo / Concepto	                                            Lógica Clave para el Oral
+A	1	        Bubble Sort	                                                        Comparación de adyacentes lista[j] > lista[j+1].
+	2	        Búsqueda Lineal	                                                    Recorrido secuencial con if datos[i] == v.
+	3	        Selection Sort	                                                    Uso de m para índice mínimo e intercambio final.
+	4	        Recursividad	                                                    Caso base n <= 1 y llamada n * f4(n-1) (Factorial).
+	5	        Búsqueda Binaria	                                                Cálculo de m = (b+e)//2 y ajuste de límites.
+	6	        Insertion Sort	                                                    Desplazamiento en while y variable v (auxiliar).
+	7	        Recursividad	                                                    Reducción de lista por rebanado L[1:].
+	8	        Búsq. Lineal Rec.	                                                Avance por índice i+1 sin ciclos explícitos.
+	9	        Eficiencia	Binaria                                                 es O(logn), Lineal es O(n).
+	10	        Selection (Var.)	Intercambio inmediato en lugar de buscar el mínimo.
+B	1	        Insertion Sort	La "clave" se mueve a la izquierda.
+	2	        Búsqueda Binaria	Punteros izq, der y punto medio p.
+	3	        Selection Sort	Búsqueda de idx_m (mínimo) en cada pasada.
+	4	        Recursividad	Conteo de caracteres mediante llamadas anidadas.
+	5	        Bubble Sort	Optimización con bandera cambio.
+	6	        Búsqueda Lineal	Uso de iterador for x in lista.
+	7	        Recursividad	Algoritmo de Euclides (MCD).
+	8	        Insertion Sort	Desplazamiento de elementos mayores en el while.
+	9	        Lógica	La Binaria falla en listas desordenadas.
+	10	        Complejidad	Ordenamientos básicos son O(n2) en peor caso.
+C	1	        Selection Sort	min_idx se intercambia solo si cambió.
+	2	        Búsq. Binaria Rec.	División logarítmica mediante recursión.
+	3	        Insertion Sort	Variable aux y desplazamiento hacia atrás.
+	4	        Recursividad	Potencia de un número (baseexp).
+	5	        Bubble Sort	Implementación clásica con doble for.
+	6	        Búsqueda Lineal	Implementación clásica con while y pos.
+	7	        Caso Base	Condición de parada para evitar desbordamiento.
+	8	        Precondición	Solo Lineal funciona en desorden (sin ordenar antes).
+	9	        Complejidad	Sin bandera, Bubble siempre es O(n2).
+	10	        Búsq. Lineal Rec.	Evaluación booleana (or) en recursión.
+D	1	        Selection Sort	Implementación con while externo y for interno.
+	2	        Búsqueda Binaria	Cálculo de mid evitando desbordamiento (low + diff).
+	3	        Bubble Sort	Variante con rango invertido range(len-1, 0, -1).
+	4	        Recursividad	Selección del máximo en una lista.
+	5	        Insertion Sort	Inserción de temp tras desplazar mayores.
+	6	        Búsqueda Lineal	Uso de enumerate para obtener índice y valor.
+	7	        Complejidad	Para n=8, log2​(8)=3 divisiones.
+	8	        Recursividad	Conversión de decimal a binario.
+	9	        Memoria	Ordenamientos básicos son In-place (O(1) extra).
+	10	        Búsqueda Lineal	Retorno de múltiples índices (lista de resultados).
