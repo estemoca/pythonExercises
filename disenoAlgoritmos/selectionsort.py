@@ -13,6 +13,7 @@ def selection_sort(lista):
             if lista[j] < lista[min_idx]:
                 print("Nuevo mínimo encontrado en el índice", j)
                 min_idx = j
+                
         print("Índice del mínimo encontrado:", min_idx)
         print("Lista antes del intercambio:", lista)
         # Intercambia el elemento mínimo con el primer elemento de la parte no ordenada
