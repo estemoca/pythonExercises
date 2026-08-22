@@ -24,6 +24,10 @@ while t < t_max:
     tiempo.append(t)
     velocidades.append(v)
 
+print(tiempo)
+print(velocidades)
+
+
 # Gráfica optimizada
 plt.figure(figsize=(8, 5))
 plt.plot(tiempo, velocidades, color='darkblue', linewidth=2, label='Velocidad del paracaidista')
